@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section main{
+    height: 35rem;
+    width: 45rem;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.personPane{
+    height: 25rem;
+    width: 40em;
+    background-color: #fff8dc;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+#createButton{
+    padding: 0.8rem;
+    width: 6rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+#createButton:hover{
+    background-color: #5cfd64;
+}
+.personPane div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    background: #5a67dd;
+}
+.personPane div h2{
+    font-weight: 700;
+    font-style: italic;
+}
+.personPane div p{
+    border-bottom: 0.2rem solid #f7d960;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.personPane div ul{
+    list-style: none;
+    line-height: 1.4rem;
+    margin-bottom: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
